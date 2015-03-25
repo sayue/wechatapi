@@ -1,16 +1,14 @@
 <?php
-
 class Oauth
 {
-    public function index() {
+    public function getInfo() {
         if (isset($_GET['code'])) {
             $result = $this->GetOpenid($_GET['code']);
             $state  = $_GET['state'];
             
             //获取到用户数据
             if ($result) {
-                header("content-Type: text/html; charset=utf-8");
-                var_dump($result);
+                return $result;
                 exit;
             } 
             else {
