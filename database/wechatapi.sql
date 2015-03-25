@@ -46,9 +46,6 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- 转存表中的数据 `user`
 --
 
-INSERT INTO `user` (`id`, `openid`, `nickname`, `sex`, `language`, `province`, `city`, `country`, `headimgurl`, `privilege`, `unionid`, `createdtime`) VALUES
-(3, 'oruPRskD6bl93GhQCQA6L1AaOVhQ', '王仨越', 1, 'zh_CN', '广东', '汕头', '中国', 'http://wx.qlogo.cn/mmopen/vp6ichVTlgwcITWVZ1bAg5SvoFuwX7hvf1UhYX6ibwq71DbDQWz3KiccXibiap0XDL3aFh5805XhVZIfP9Iu4op8dn1TmlBiaptgnr/0', '{}', '', 1427299586);
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
